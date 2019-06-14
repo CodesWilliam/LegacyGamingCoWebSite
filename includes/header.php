@@ -23,11 +23,13 @@
     </div>
     <nav id="cssmenu">
         <ul>
-            <li><a href="#" target="_blank">Gaming</a></li>
-            <li><a href="#">Kids Zone!!</a></li>
-            <li><a href="#">Turn Back Time Zone</a></li>
-            <li><a href="#">Pricing</a></li>
-            <li><a href="#">Store Info</a></li>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="storeinfo.php">Store Info</a>
+                <ul>
+                    <li><a href="#">Kids Zone</a></li>
+                </ul>
+            </li>
+            <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
         <!-- header ends here -->
