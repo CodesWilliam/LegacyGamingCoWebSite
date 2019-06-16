@@ -59,48 +59,15 @@ p.overview {
 }
 
 h3 {
-    text-align: right;
-    padding-top: .5em;
+    text-align: center;
+    padding-top: .25em;
     padding-right: 1em;
-    margin-left: 56em;
     margin-right: 1.75em;
-    background-color: #800000;
+    background-color: #000000;
     color: #fff;
 }
 
-/*Embed Google Map */
-/*.embed-map {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0; overflow: hidden;
-    max-width: 100%;
-}
-
-.embed-map iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}*/
-
-/*Embed YouTube Webcam */
-div.embed-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 80%;
-    text-align: center;
-}
-
-div.embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 80%;
-    height: 100%;
-}
+/* May add this back in later if needed for an aside column
 
 aside.rightcolumn {
     float: right;
@@ -111,6 +78,7 @@ aside.rightcolumn {
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+*/
 
 phone {
     padding: 1em;
@@ -119,6 +87,7 @@ phone {
 footer {
     clear: both;
     text-align: center;
+    color: #000000;
 }
 
 /* DESKTOP */
