@@ -32,7 +32,7 @@
                 beginning! Our Phases are listed on the website as well so feel free to ask questions.</p>
         </section>
     </article>
-    <article class="reservations">
+    <aside class="reservations">
         <section class="form">
             <h2>Want to Reserve</h2>
             <p class="formInformation">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
@@ -51,7 +51,7 @@
                 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa
                 qui officia deserunt mollit anim id est laborum.</p>
         </section>
-    </article>
+    </aside>
 
             <!--Ask for content to go in this spot-->
             <!--<div class="videoGaming">

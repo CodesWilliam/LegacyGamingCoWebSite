@@ -16,10 +16,10 @@
 </head>
     <body>
     <div class="logo">
-        <a href="index.php"><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
+        <a href="index.php" class="crown"><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
     <div class="banner">
-        <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>    
+        <a href="index.php" class="legacy"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
     <nav id="cssmenu">
         <ul>

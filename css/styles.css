@@ -12,6 +12,24 @@ div#wrapper {
     border-radius: 25px;
 }
 
+article#gamingPage  {
+    clear: both;
+    float: left;
+    width: 60%;
+    margin: auto;
+    overflow: auto;
+}
+
+img.crown {
+    clear: both;
+    float: left;
+}
+
+img.legacy {
+    clear: both;
+    float: right;
+}
+
 p {
     margin: 1em; /* T R B L */
 }
@@ -29,22 +47,8 @@ nav li.selected {
 h2 {
     text-align: center;
     padding-left: .5em;
-    background-color: #000;
-    color: #fff;
-}
-
-img.desktop{
-    margin-top: .5em;
-    padding-right: 1em;
-    padding-left: 1em;
-    border-radius: 75px;
-}
-
-img.tablet {
-    margin-top: 5em;
-    margin-left: 2em;
-    border-radius: 75px;
-    padding-right: 1em;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 p.overview {
@@ -64,7 +68,14 @@ h3 {
     padding-right: 1em;
     margin-right: 1.75em;
     background-color: #000000;
-    color: #fff;
+    color: #ffffff;
+}
+
+aside.reservations {
+    clear: both;
+    float: right;
+    text-align: center;
+    font-size: 1em;
 }
 
 /* May add this back in later if needed for an aside column
@@ -87,7 +98,8 @@ phone {
 footer {
     clear: both;
     text-align: center;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 /* DESKTOP */
