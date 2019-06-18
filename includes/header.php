@@ -15,11 +15,11 @@
     <link rel="stylesheet" href="../css/nav.css" />
 </head>
     <body>
-    <div class="logo">
-        <a href="index.php" class="crown"><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
+    <div class="crown">
+        <a href="index.php" ><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
-    <div class="banner">
-        <a href="index.php" class="legacy"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
+    <div class="legacy">
+        <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
     <nav id="cssmenu">
         <ul>

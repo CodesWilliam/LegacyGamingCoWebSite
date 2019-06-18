@@ -20,14 +20,16 @@ article#gamingPage  {
     overflow: auto;
 }
 
-img.crown {
+div.crown {
     clear: both;
     float: left;
+    width: 20%;
 }
 
-img.legacy {
+div.legacy {
     clear: both;
     float: right;
+    width: 80%;
 }
 
 p {
