@@ -12,14 +12,6 @@ div#wrapper {
     border-radius: 25px;
 }
 
-article#gamingPage  {
-    clear: both;
-    float: left;
-    width: 60%;
-    margin: auto;
-    overflow: auto;
-}
-
 div.crown {
     clear: both;
     float: left;
@@ -30,6 +22,14 @@ div.legacy {
     clear: both;
     float: right;
     width: 80%;
+}
+
+article#gamingPage  {
+    clear: both;
+    float: left;
+    width: 60%;
+    margin: auto;
+    overflow: auto;
 }
 
 p {
