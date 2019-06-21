@@ -11,16 +11,17 @@
     <script src="https://s3.amazonaws.com/menumaker/menumaker.min.js" type="text/javascript"></script>
     <script src="script.js"></script>
     <script src='https://www.google.com/recaptcha/api.js'></script>
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/nav.css" />
 </head>
-    <body>
+    <header>
     <div class="crown">
         <a href="index.php" ><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
     <div class="legacy">
         <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
+    </header> 
     <nav id="cssmenu">
         <ul>
             <li><a href="index.php">Home</a></li>
@@ -32,4 +33,5 @@
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>
+    <body>
         <!-- header ends here -->
