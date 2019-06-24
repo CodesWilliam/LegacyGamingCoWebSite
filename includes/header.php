@@ -15,13 +15,13 @@
     <link rel="stylesheet" href="../css/nav.css" />
 </head>
     <header>
-    <div class="crown">
+    <div class="crown" height="226" width="644">
         <a href="index.php" ><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
-    <div class="legacy">
+    <div class="legacy" height="226" width="644">
         <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
-    </header> 
+    </header>
     <nav id="cssmenu">
         <ul>
             <li><a href="index.php">Home</a></li>

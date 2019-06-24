@@ -16,10 +16,10 @@ div.crown {
     clear: both;
     float: left;
     width: 20%;
+    margin-top: 2.5em;
 }
 
 div.legacy {
-    clear: both;
     float: right;
     width: 80%;
 }
