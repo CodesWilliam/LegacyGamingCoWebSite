@@ -57,8 +57,6 @@
             <!--<div class="videoGaming">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/qYfNzhLXYGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>-->
-            <
-
             <!-- Ask about this content
             <section class="updates">
                 <div class="leftImg">

@@ -30,6 +30,16 @@ article#gamingPage  {
     width: 60%;
     margin: auto;
     overflow: auto;
+    font-size: 1.25em;
+}
+
+aside.reservations {
+    float: right;
+    /*clear: both;*/
+    width: 40%;
+    margin: auto;
+    overflow: auto;
+    font-size: 1.25em;
 }
 
 p {
@@ -73,25 +83,34 @@ h3 {
     color: #ffffff;
 }
 
-aside.reservations {
+/*aside.reservations {
     clear: both;
     float: right;
     text-align: center;
     font-size: 1em;
-}
+}*/
 
-/* May add this back in later if needed for an aside column
+/*May add this back in later if needed for an aside column
+ This aside is added back in for now. Could potentially remove the aside later.*/
 
-aside.rightcolumn {
-    float: right;
-    width: 15.75%;
-    margin-right: 2em;
-    background-color: #800000;
+aside.leftColumn {
+    float: left;
+    width: 40%;
+    margin: 1.5em;
+    background-color: #ca1008;
     color: #fff;
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
+    font-size: 1.25em;
 }
-*/
+
+h2.contactUs {
+    text-align: center;
+    padding-left: .5em;
+    background-color: #000000;
+    color: #ffffff;
+    margin-bottom: 1em;
+    margin-top: 0em;
+}
+
 
 phone {
     padding: 1em;
