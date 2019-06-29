@@ -12,6 +12,10 @@ div#wrapper {
     border-radius: 25px;
 }
 
+header {
+    position: relative;
+}
+
 div.crown {
     clear: both;
     float: left;
