@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2c5d189-f5e8-470d-baf5-f63e25e7e7c1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/mail/contact_me.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/storeinfo.php" beforeDir="false" afterPath="$PROJECT_DIR$/storeinfo.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail/contact_me.php" beforeDir="false" afterPath="$PROJECT_DIR$/mail/contact_me.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,8 +61,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mail/contact_me.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="425">
+              <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -166,11 +164,6 @@
             <path>
               <item name="LegacyGamingCoWebSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="LegacyGamingCoWebSite" type="462c0819:PsiDirectoryNode" />
-              <item name="mail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LegacyGamingCoWebSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LegacyGamingCoWebSite" type="462c0819:PsiDirectoryNode" />
               <item name="temp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,12 +215,12 @@
       <workItem from="1560311790745" duration="1081000" />
       <workItem from="1560485745928" duration="11625000" />
       <workItem from="1561381192240" duration="7165000" />
-      <workItem from="1561923373354" duration="3739000" />
+      <workItem from="1561923373354" duration="4150000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25889000" />
+    <option name="totallyTimeSpent" value="26300000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -380,8 +373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mail/contact_me.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+        <state relative-caret-position="425">
+          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
         </state>
       </provider>
     </entry>
