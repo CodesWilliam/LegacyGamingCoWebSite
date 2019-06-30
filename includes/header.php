@@ -13,21 +13,23 @@
     <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="stylesheet" href="../css/nav.css" />
+    <link rel="stylesheet" href="../css/form.css">
 </head>
     <header>
-    <div class="crown">
+    <div class="crown" height="226" width="644">
         <a href="index.php" ><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
-    <div class="legacy">
+    <div class="legacy" height="226" width="644">
         <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
-    </header> 
+    </header>
     <nav id="cssmenu">
         <ul>
             <li><a href="index.php">Home</a></li>
             <li><a href="storeinfo.php">Store Info</a>
                 <ul>
-                    <li><a href="#">Kids Zone</a></li>
+                    <li><a href="#kids">Kids Zone</a></li>
+                    <li><a href="#retro">Turn Back Time</a></li>
                 </ul>
             </li>
             <li><a href="contact.php">Contact</a></li>
