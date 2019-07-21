@@ -25,3 +25,6 @@ $headers .= "Reply-To: $email_address";
 mail($to,$email_subject,$email_body,$headers);
 return true;
 ?>
+
+<!--contact form javascript-->
+<script src="js/contact_me.js"></script>
