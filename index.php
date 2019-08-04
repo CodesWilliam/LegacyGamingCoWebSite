@@ -45,24 +45,34 @@
                     <form id="contactForm" name="sentMessage" novalidate="novalidate">
                         <div class="date">
                             <div class="form-group">
+                                <h3>Reservation Date</h3>
                                 <input class="form-control" type="date" name="resDate">
+                            </div>
+                        </div>
+                        <div class="time">
+                            <div class="timeFrame">
+                                <h3>Time</h3>
+                                <input class="form-control" type="time" name="resTime">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
+                                    <h3>Name</h3>
                                     <input class="form-control" id="name" type="text" placeholder="Your Name *"
                                            required="required"
                                            data-validation-required-message="Please enter your name.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
+                                    <h3>Email Address</h3>
                                     <input class="form-control" id="email" type="email" placeholder="Your Email *"
                                            required="required"
                                            data-validation-required-message="Please enter your email address.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
+                                    <h3>Phone Number</h3>
                                     <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
                                            required="required"
                                            data-validation-required-message="Please enter your phone number.">
@@ -71,6 +81,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
+                                    <h3>Comments</h3>
                                     <textarea class="form-control" id="message" placeholder="Your Message *"
                                               required="required"
                                               data-validation-required-message="Please enter a message."></textarea>
