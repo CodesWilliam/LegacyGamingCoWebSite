@@ -68,6 +68,20 @@ h3 {
     color: #fff;
 }
 
+div.phaseInformation{
+    padding: .5em;
+    margin-right: .75em;
+    margin-left: .75em;
+    margin-bottom: .75em;
+}
+
+h3.phaseTitle{
+    margin: 1em;
+    text-align: center;
+    font-size: 1.5em;
+    background-color: #000000;
+}
+
 /*Embed Google Map */
 /*.embed-map { 
     position: relative; 
@@ -85,7 +99,7 @@ h3 {
 }*/
 
 /*Embed YouTube Webcam */
-div.embed-container { 
+/*div.embed-container {
     position: relative; 
     padding-bottom: 56.25%; 
     height: 0; 
@@ -101,6 +115,7 @@ div.embed-container iframe {
     width: 80%; 
     height: 100%;
 }
+ */
 
 aside.rightcolumn {
     float: right;
