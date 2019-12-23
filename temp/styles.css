@@ -1,7 +1,11 @@
 /* My portal page styles */
 
 html {
-    background-color: #030103; /* Red Green Blue */
+    background-color: #000000; /* Red Green Blue */
+}
+
+body{
+    width: 75%;
 }
 
 div#wrapper {
