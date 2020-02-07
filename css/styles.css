@@ -60,16 +60,17 @@ p.legacyOverview{
     float: right;
     clear: left;
     text-align: right;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 section.storeInfo{
-    width: 50%;
+    width: 100%;
     float: right;
     clear: left;
 }
 
 div.legacyHistory{
+    width: 50%;
     float: right;
     clear: left;
     margin: auto;
@@ -83,10 +84,47 @@ h2{
 }
 
 p.history{
+    margin: auto;
     float: left;
     clear: right;
     text-align: left;
-    font-size: 1.5em;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+}
+
+div.kidsZoneInfo {
+    float: left;
+    clear: right;
+    margin: auto;
+    overflow: auto;
+    width: 50%;
+}
+
+p.kidsZoneText{
+    margin: auto;
+    float: right;
+    clear: left;;
+    text-align: left;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+}
+
+div.retro{
+    float: right;
+    clear: left;
+    margin: auto;
+    overflow: auto;
+    width: 65%;
+}
+
+p.turnBackTime{
+    margin-right: .5em;
+    float: right;
+    clear: left;
+    text-align: right;
+    font-size: 1.25em;
     color: black;
     background-color: white;
 }
@@ -102,7 +140,7 @@ footer {
     color: #ffffff;
 }
 
-/* DESKTOP */
+/*DESKTOP
 @media all and (min-width:1280px) {
 
     img.desktop {
@@ -117,7 +155,7 @@ footer {
 
 }
 
-/* TABLET */
+ TABLET
 @media all and (min-width:769px) and (max-width:1279px) {
 
     img.tablet {
@@ -136,10 +174,10 @@ footer {
 
 }
 
-/* PHONE */
+PHONE
 @media all and (max-width:768px) {
 
-    div#wrapper {
+    /*div#wrapper {
         width: 100%;
     }
 
@@ -159,10 +197,12 @@ footer {
     p.overview {
         width: auto;
     }
-
-    aside.rightcolumn {
+*/
+    /*aside.rightcolumn {
         float: none;
         width: 50%;
     }
 
 }
+
+ */
