@@ -15,7 +15,6 @@ div#wrapper {
     width: 90%;
     margin: auto;
     overflow: auto;
-    border-radius: 25px;
 }
 
 header {
@@ -34,13 +33,34 @@ div.legacy {
     width: 80%;
 }
 
-article#gamingPage  {
-    clear: both;
-    float: left;
-    width: 60%;
+div.largeImage{
+    width: 100%;
     margin: auto;
     overflow: auto;
-    font-size: 1.25em;
+}
+
+section.legacyGaming  {
+    width: 50%;
+    float: left;
+    clear: right;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+div.legacyLogoImage{
+    float: left;
+    clear: left;
+}
+
+p.legacyOverview{
+    float: right;
+    clear: right;
+    text-align: right;
+    font-size: 3em;
 }
 
 aside.reservations {
