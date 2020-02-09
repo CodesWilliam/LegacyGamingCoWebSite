@@ -26,12 +26,10 @@
     <nav id="cssmenu">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="storeinfo.php">Store Info</a>
-                <ul>
-                    <li><a href="#kids">Kids Zone</a></li>
-                    <li><a href="#retro">Turn Back Time</a></li>
-                </ul>
-            </li>
+            <li><a href="whatIs">What Is Legacy</a></li>
+            <li><a href="legacyHistory">What Legacy Has To Offer</a></li>
+            <li><a href="gamingAtFinest">Gaming At It's Finest</a></li>
+            <li><a href="retro">Turn Back Time</a></li>
             <li><a href="contact.php">Contact</a></li>
         </ul>
     </nav>

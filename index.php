@@ -3,16 +3,18 @@
         <img src="../images/HomeImage.jpg" alt="Home Image">
     </div>
     <section class="legacyGaming">
-        <h1>What Is Legacy Gaming</h1>
-            <div class="legacyLogoImage">
-                <img src="../images/smallLogo.png" alt="Legacy Logo">
-            </div>
-            <p class="legacyOverview">
-                Legacy Gaming is a new age Arcade or what we like to call a Gaming
-                Lounge built for all ages of Gamers. We specialize in VR, PC, and all
-                Console Gaming with games of all Genres and no limits. <a href="whatIs.php">(Read More...)</a>
+        <div class="whatIs">
+            <h1>What Is Legacy Gaming</h1>
+                <div class="legacyLogoImage">
+                    <img src="../images/smallLogo.png" alt="Legacy Logo">
+                </div>
+                <p class="legacyOverview">
+                    Legacy Gaming is a new age Arcade or what we like to call a Gaming
+                    Lounge built for all ages of Gamers. We specialize in VR, PC, and all
+                    Console Gaming with games of all Genres and no limits. <a href="whatIs.php">(Read More...)</a>
 
-            </p>
+                </p>
+        </div>
     </section>
     <section class="storeInfo">
         <div class="legacyHistory">
@@ -24,7 +26,7 @@
                 residential gamers. <a href="offering.php">(Read More...)</a>
             </p>
         </div>
-        <div class="kidsZoneInfo">
+        <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
             <p class="kidsZoneText">
                 At Legacy we have a wide variety of Gaming Systems such as HTC Vive, PS4
