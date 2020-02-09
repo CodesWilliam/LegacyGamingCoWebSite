@@ -1,107 +1,55 @@
 <?php include 'includes/header.php'?>
-    <article id="gamingPage">
-        <section class="whatIs">
-            <h2>What is Legacy Gaming</h2>
-            <p class="premium">Legacy Gaming Community is a New Age Gaming Arcade that specializes in Virtual Reality,
-                PC, and Console Gaming. Unlike your standard Arcade or Gaming Cafe Legacy is not strictly for your
-                Hard-Core Gamer or the Youth and young Gamers, but instead, has a wide variety to entertain all Gamers
-                and Non-Gamers alike. We do not limit our Gamers to any few genres of gaming but instead welcome you to
-                provide us with input on what game genres you would like to play and compete with. </p>
-            <h3>We plan to host the Following</h3>
-            <ul class="hosting">
-                <li>HTC Vive VR for Stand alone, Dual, or Family setting gaming (Available Phase I)</li>
-                <li>PS4 Pro VR for Stand alone, Dual, or Family Setting Gaming (Available Phase I)</li>
-                <li>PS4 Pro Consoles for Stand alone, or Dual Gaming (Available Phase I)</li>
-                <li>Alienware Area 51 Threadripper PC's (Overclocked) for Standalone Online Gaming (Available Phase II)</li>
-                <li>XBox One S Console for Stand alone, or Dual Gaming (Available Phase II)</li>
-                <li>Nintendo Switch for Standalone, or Dual Gaming (Available Phase II)</li>
-            </ul>
-            <p class="premium">Legacy Gaming will boast the Fastest Online Gaming Speeds that most do not have at home,
-                as well was as, the best graphics one can have. Test us against your home for proof! We look to offer
-                Internships for anyone is looks break into the career choices of Computer Science, Game Design or
-                Teaching. Once Legacy Gaming reaches its Phase III, we will begin to offer tutoring for children in low
-                income families or with subtle learning disabilities the ages 6 to 13 in both Math and Science. We at
-                that time will also be opening our then to now zone hosting most of the prolific consoles dating as far
-                back as Pong and through the years up to date to what most are gaming on today for a minimal fee and
-                also to help educate everyone on where console gaming begun. </p>
-            <p class="premium">We are building our website and will continue to develop it so that in the future our
-                patrons are able to book gaming time for themselves, build their own gaming communities and Blogs for
-                great experiences and even Tournament Gaming as well. We invite you to support us and help us to grow
-                to serve you in a very precise and efficient manner. Your input will very well dictate the growth of
-                Legacy Gaming and we look forward to serving you. If you are at all impressed now, this is only the
-                beginning! Our Phases are listed on the website as well so feel free to ask questions.</p>
-        </section>
-    </article>
-    <aside class="reservations">
-        <section class="form">
-            <h2>Want to Reserve</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-                fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.</p>
-            <div class="row">
-                <div class="col-lg-12">
-                    <form id="contactForm" name="sentMessage" novalidate="novalidate">
-                        <div class="date">
-                            <div class="form-group">
-                                <input class="form-control" type="date" name="resDate">
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input class="form-control" id="name" type="text" placeholder="Your Name *"
-                                           required="required"
-                                           data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="email" type="email" placeholder="Your Email *"
-                                           required="required"
-                                           data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *"
-                                           required="required"
-                                           data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" id="message" placeholder="Your Message *"
-                                              required="required"
-                                              data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase"
-                                        type="submit">Reserve</button>
-                            </div>
-                        </div>
-                    </form>
+    <div class="largeImage">
+        <img src="../images/HomeImage.jpg" alt="Home Image">
+    </div>
+    <section class="legacyGaming">
+        <div class="whatIs">
+            <h1>What Is Legacy Gaming</h1>
+                <div class="legacyLogoImage">
+                    <img src="../images/smallLogo.png" alt="Legacy Logo">
                 </div>
-            </div>
-        </section>
-    </aside>
+                <p class="legacyOverview">
+                    Legacy Gaming is a new age Arcade or what we like to call a Gaming
+                    Lounge built for all ages of Gamers. We specialize in VR, PC, and all
+                    Console Gaming with games of all Genres and no limits. <a href="whatIs.php">(Read More...)</a>
 
-            <!--Ask for content to go in this spot-->
-            <!--<div class="videoGaming">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/qYfNzhLXYGc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-            </div>-->
-            <!-- Ask about this content
-            <section class="updates">
-                <div class="leftImg">
-                    <img src="#"/>
-                </div>
-                <p class="leftText">Clever stuff goes here</p>
-            </section>
-            -->
+                </p>
+        </div>
+    </section>
+    <section class="storeInfo">
+        <div class="legacyHistory">
+            <h2>What Legacy Gaming Offers</h2>
+            <p class="history">
+                We host the best gaming experience a person can have with the fastest
+                speeds and best graphics one can experience. With our environment being
+                hardwired and using Fiber, we host Gigabit speeds that are faster than
+                residential gamers. <a href="offering.php">(Read More...)</a>
+            </p>
+        </div>
+        <div class="gamingAtFinest">
+            <h2>Gaming at its finest</h2>
+            <p class="kidsZoneText">
+                At Legacy we have a wide variety of Gaming Systems such as HTC Vive, PS4
+                Pro VR, PS4 Pro (soon to be PS 5), X Box One X, and Nintendo Switch. We
+                also host the fastest in PC Gaming with the Alienware Aurora's R8 for PC
+                Gaming and R9 for our VR experience Overclocked. <a href="finest.php">(Read More...)</a>
+            </p>
+        </div>
+        <div class="retro">
+            <h2>Turn Back Time</h2>
+            <p class="turnBackTime">
+                At Legacy Gaming we not only host what is new and hot but we pay tribute
+                to the gaming consoles that got us here. You can play most of the old
+                consoles as we rotate them in and out. Everything from Pong to Atari and
+                space Invaders to Coleco Vision. Come Game with us and learn a bit of
+                history! <a href="turnBackTime.php">(Read More...)</a>
+            </p>
+        </div>
+    </section>
+    <section class="contact">
+        <!--place contact form here-->
+    </section>
+
         
 
 <?php include 'includes/footer.php'?>

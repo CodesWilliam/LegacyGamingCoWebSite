@@ -43,8 +43,10 @@
             </div>
         </div>
     </aside>
-<?php include "includes/simple.php";?>
 
+
+    <!--Contact Form JS-->
+    <script src="js/contact_me.js"></script>
 
     <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
     <script>

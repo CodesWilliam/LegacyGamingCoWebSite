@@ -1,7 +1,13 @@
 /* My portal page styles */
 
 html {
-    background-color: #ffffff; /* Red Green Blue */
+    background-color: #000000; /* Red Green Blue */
+}
+
+body{
+    background-color: #ffffff;
+    width: 80%;
+    margin-left: 8.5em;
 }
 
 div#wrapper {
@@ -9,7 +15,6 @@ div#wrapper {
     width: 90%;
     margin: auto;
     overflow: auto;
-    border-radius: 25px;
 }
 
 header {
@@ -21,113 +26,122 @@ div.crown {
     float: left;
     width: 20%;
     margin-top: 2.5em;
+    margin-left: 4em;
 }
 
 div.legacy {
     float: right;
-    width: 80%;
+    width: 70%;
 }
 
-article#gamingPage  {
-    clear: both;
-    float: left;
-    width: 60%;
+div.largeImage{
+    width: 100%;
     margin: auto;
     overflow: auto;
+}
+
+section.legacyGaming  {
+    width: 50%;
+    float: left;
+    clear: right;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+div.legacyLogoImage{
+    float: left;
+    clear: right;
+}
+
+p.legacyOverview{
+    float: right;
+    clear: left;
+    text-align: right;
     font-size: 1.25em;
 }
 
-aside.reservations {
+section.storeInfo{
+    width: 100%;
     float: right;
-    /*clear: both;*/
-    width: 40%;
+    clear: left;
+}
+
+div.legacyHistory{
+    width: 50%;
+    float: right;
+    clear: left;
     margin: auto;
     overflow: auto;
-    font-size: 1.25em;
 }
 
-p {
-    margin: 1em; /* T R B L */
-}
-
-header h1 {
-    margin-left: .75em;
+h2{
     text-align: center;
-    text-decoration: none;
+    background-color: black;
+    color: white;
 }
 
-nav li.selected {
-    background-color: #800000;
-}
-
-h2 {
-    text-align: center;
-    padding-left: .5em;
-    background-color: #000000;
-    color: #ffffff;
-}
-
-p.overview {
-    text-indent: .5em;
-    color: #fff;
-    background-color: #800000;
-    margin-left: .2em;
-    padding: 1em;
-    border-radius: 25px;
-    width: 45em;
-    margin-top: 8em;
-}
-
-h3 {
-    text-align: center;
-    padding-top: .25em;
-    padding-right: 1em;
-    margin-right: 1.75em;
-    background-color: #000000;
-    color: #ffffff;
-}
-
-/*aside.reservations {
-    clear: both;
-    float: right;
-    text-align: center;
-    font-size: 1em;
-}*/
-
-/*May add this back in later if needed for an aside column
- This aside is added back in for now. Could potentially remove the aside later.*/
-
-aside.leftColumn {
+p.history{
+    margin: auto;
     float: left;
-    width: 40%;
-    margin: 1.5em;
-    background-color: #ca1008;
-    color: #fff;
+    clear: right;
+    text-align: left;
     font-size: 1.25em;
+    color: black;
+    background-color: white;
 }
 
-h2.contactUs {
-    text-align: center;
-    padding-left: .5em;
-    background-color: #000000;
-    color: #ffffff;
-    margin-bottom: 1em;
-    margin-top: 0em;
+div.kidsZoneInfo {
+    float: left;
+    clear: right;
+    margin: auto;
+    overflow: auto;
+    width: 50%;
 }
 
+p.kidsZoneText{
+    margin: auto;
+    float: right;
+    clear: left;;
+    text-align: left;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+}
+
+div.retro{
+    float: right;
+    clear: left;
+    margin: auto;
+    overflow: auto;
+    width: 65%;
+}
+
+p.turnBackTime{
+    margin-right: .5em;
+    float: right;
+    clear: left;
+    text-align: right;
+    font-size: 1.25em;
+    color: black;
+    background-color: white;
+}
 
 phone {
     padding: 1em;
 }
 
-footer {
+footer{
     clear: both;
     text-align: center;
     background-color: #000000;
     color: #ffffff;
 }
 
-/* DESKTOP */
+/*DESKTOP*/
 @media all and (min-width:1280px) {
 
     img.desktop {
@@ -142,52 +156,14 @@ footer {
 
 }
 
-/* TABLET */
+/* TABLET*/
 @media all and (min-width:769px) and (max-width:1279px) {
 
-    img.tablet {
-        float: right;
-        width: 50%;
-    }
-
-    img.desktop, img.phone {
-        display: none;
-    }
-
-    aside.rightcolumn {
-        float: none;
-        width: 50%;
-    }
 
 }
 
-/* PHONE */
+/*PHONE*/
 @media all and (max-width:768px) {
 
-    div#wrapper {
-        width: 100%;
-    }
-
-    img.phone {
-        width: 100%;
-    }
-
-    img.desktop, img.tablet {
-        display: none;
-    }
-
-    header h1 {
-        text-align: center;
-        margin-left: 0;
-    }
-
-    p.overview {
-        width: auto;
-    }
-
-    aside.rightcolumn {
-        float: none;
-        width: 50%;
-    }
 
 }
