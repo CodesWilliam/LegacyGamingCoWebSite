@@ -10,7 +10,7 @@
                 </div>
                 <p class="legacyOverview">
                     Legacy Gaming is a new age Arcade or what we like to call a Gaming
-                    Lounge built for all ages of Gamers. We specialize in VR, PC, and all
+                    Lounge built for all ages of Gamers. We specialize in Virtual Reality, PC, and all
                     Console Gaming with games of all Genres and no limits. <a href="whatIs.php">(Read More...)</a>
 
                 </p>
@@ -29,10 +29,12 @@
         <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
             <p class="kidsZoneText">
-                At Legacy we have a wide variety of Gaming Systems such as HTC Vive, PS4
-                Pro VR, PS4 Pro (soon to be PS 5), X Box One X, and Nintendo Switch. We
-                also host the fastest in PC Gaming with the Alienware Aurora's R8 for PC
-                Gaming and R9 for our VR experience Overclocked. <a href="finest.php">(Read More...)</a>
+                At Legacy we have a wide variety of Gaming Systems such as HTC Vive, PS4 Pro VR, Oculus VR , PS4 Pro
+                (soon to be PS 5), X Box One X (soon to be Series X), and Nintendo Switch (soon to be Switch Pr.
+                We also host the fastest in PC Gaming with the Alienware Aurora's R8 for PC Gaming and our VR experience
+                Overclocked. Combined with our fiber ran high-speed business internet connections and High definition
+                Gaming Monitors you will play at speeds and clarity you cannot get in a residential setting!
+                <a href="finest.php">(Read More...)</a>
             </p>
         </div>
         <div class="retro">
@@ -41,14 +43,13 @@
                 At Legacy Gaming we not only host what is new and hot but we pay tribute
                 to the gaming consoles that got us here. You can play most of the old
                 consoles as we rotate them in and out. Everything from Pong to Atari and
-                space Invaders to Coleco Vision. Come Game with us and learn a bit of
+                space Invaders to Coleco Vision. Come join our New Age Arcade and game with us and even learn a bit of
                 history! <a href="turnBackTime.php">(Read More...)</a>
             </p>
         </div>
     </section>
     <section class="contact">
         <!--place contact form here-->
-
         <h2>Find Us</h2>
         <p class="findUs">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et

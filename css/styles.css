@@ -1,7 +1,8 @@
 /* My portal page styles */
 
 html {
-    background-color: #000000; /* Red Green Blue */
+    background: url(../images/BGImage.png);
+    /*background-color: #000000; /* Red Green Blue */
 }
 
 body{
