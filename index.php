@@ -25,6 +25,26 @@
                 hardwired and using Fiber, we host Gigabit speeds that are faster than
                 residential gamers. <a href="offering.php">(Read More...)</a>
             </p>
+            <h3>All VR Headsets&#42;</h3>
+            <ul>
+                <li>&#36;40.00&#47;hr &#40;1 hour limit at a time&#41;</li>
+                <li>&#36;20.00&#47half hour</li>
+            </ul>
+            <h3>Alienware R8 PC&#39s</h3>
+            <ul>
+                <li>&#36;30.00&#47;hr &#40;2 hour limit at a time&#41;</li>
+                <li>&#36;15.00&#47;half hour</li>
+            </ul>
+            <h3>Newer Consoles</h3>
+            <ul>
+                <li>&#36;25.00&#47;hr &#40;2 hour limit at a time&#41;</li>
+                <li>&#36;12.50&#47;half hour</li>
+            </ul>
+            <h3>Turn Back Time Consoles</h3>
+            <ul>
+                <li>&#36;10.00&#47;hr &#40;2 hour limit at a time&#41;</li>
+                <li>&#36;5.00&#47;half hour</li>
+            </ul>
         </div>
         <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
