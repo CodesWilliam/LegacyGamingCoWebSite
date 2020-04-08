@@ -1,7 +1,8 @@
 /* My portal page styles */
 
 html {
-    background-color: #000000; /* Red Green Blue */
+    background: url(../images/BGImage.png);
+    /*background-color: #000000; /* Red Green Blue */
 }
 
 body{
@@ -42,6 +43,7 @@ div.largeImage{
 
 section.legacyGaming  {
     width: 50%;
+    margin: 1.10em;
     float: left;
     clear: right;
 }
@@ -53,29 +55,30 @@ h1{
 }
 
 div.legacyLogoImage{
+    width: 196px;
+    legth: 136px;
     float: left;
     clear: right;
 }
 
 p.legacyOverview{
+    width: 65%;
     float: right;
     clear: left;
-    text-align: right;
-    font-size: 1.25em;
 }
 
 section.storeInfo{
-    width: 100%;
+    width: 50%;
+    margin: 1.10em;
     float: right;
     clear: left;
 }
 
 div.legacyHistory{
-    width: 50%;
-    float: right;
-    clear: left;
-    margin: auto;
-    overflow: auto;
+    width: 90%;
+    margin: .25em;
+    float: left;
+    clear: right;
 }
 
 h2{
@@ -85,49 +88,56 @@ h2{
 }
 
 p.history{
-    margin: auto;
-    float: left;
-    clear: right;
-    text-align: left;
+    width: auto;
+    text-align: center;
     font-size: 1.25em;
-    color: black;
-    background-color: white;
 }
 
-div.kidsZoneInfo {
-    float: left;
-    clear: right;
-    margin: auto;
-    overflow: auto;
+section.gamingFinestInfo{
     width: 50%;
+    margin: 1.10em;
+    float: left;
+    clear: right;
 }
 
-p.kidsZoneText{
-    margin: auto;
-    float: right;
-    clear: left;;
-    text-align: left;
+div.gamingAtFinest {
+    width: 90%;
+    marin: .25em;
+    float: left;
+    clear: right;
+}
+
+p.gamingFinestText{
+    width: auto;
+    text-align: center;
     font-size: 1.25em;
-    color: black;
-    background-color: white;
+}
+
+section.retroInfo{
+    width: 50%;
+    margin: 1.10em;
+    float: right;
+    clear: left;
 }
 
 div.retro{
+    width: 90%;
+    margin: .25em;
     float: right;
     clear: left;
-    margin: auto;
-    overflow: auto;
-    width: 65%;
 }
 
 p.turnBackTime{
-    margin-right: .5em;
-    float: right;
-    clear: left;
-    text-align: right;
+    width: auto;
+    text-align: center;
     font-size: 1.25em;
-    color: black;
-    background-color: white;
+}
+
+section.contact{
+    width: 50%;
+    margin: 1.10em;
+    float: left;
+    clear: right;
 }
 
 phone {

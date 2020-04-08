@@ -30,7 +30,7 @@
             <li><a href="legacyHistory">What Legacy Has To Offer</a></li>
             <li><a href="gamingAtFinest">Gaming At It's Finest</a></li>
             <li><a href="retro">Turn Back Time</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="contact">Contact</a></li>
         </ul>
     </nav>
     <body>
