@@ -3,27 +3,27 @@
         <img src="../images/HomeImage.jpg" alt="Home Image">
     </div>
     <section class="legacyGaming">
+        <h1>What Is Legacy Gaming</h1>
         <div class="whatIs">
-            <h1>What Is Legacy Gaming</h1>
                 <div class="legacyLogoImage">
                     <img src="../images/smallLogo.png" alt="Legacy Logo">
                 </div>
                 <p class="legacyOverview">
                     Legacy Gaming is a new age Arcade or what we like to call a Gaming
                     Lounge built for all ages of Gamers. We specialize in Virtual Reality, PC, and all
-                    Console Gaming with games of all Genres and no limits. <a href="whatIs.php">(Read More...)</a>
+                    Console Gaming with games of all Genres and no limits. <a href="readMore.php">(Read More...)</a>
 
                 </p>
         </div>
     </section>
     <section class="storeInfo">
-        <div class="legacyHistory">
+        <div class="storeInfoDiv">
             <h2>What Legacy Gaming Offers</h2>
             <p class="history">
                 We host the best gaming experience a person can have with the fastest
                 speeds and best graphics one can experience. With our environment being
                 hardwired and using Fiber, we host Gigabit speeds that are faster than
-                residential gamers. <a href="offering.php">(Read More...)</a>
+                residential gamers. <a href="readMore.php">(Read More...)</a>
             </p>
             <h3>All VR Headsets&#42;</h3>
             <ul>
@@ -46,17 +46,21 @@
                 <li>&#36;5.00&#47;half hour</li>
             </ul>
         </div>
+    </section>
+    <section class="gamingFinestInfo">
         <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
-            <p class="kidsZoneText">
+            <p class="gamingFinestText">
                 At Legacy we have a wide variety of Gaming Systems such as HTC Vive, PS4 Pro VR, Oculus VR , PS4 Pro
                 (soon to be PS 5), X Box One X (soon to be Series X), and Nintendo Switch (soon to be Switch Pr.
                 We also host the fastest in PC Gaming with the Alienware Aurora's R8 for PC Gaming and our VR experience
                 Overclocked. Combined with our fiber ran high-speed business internet connections and High definition
                 Gaming Monitors you will play at speeds and clarity you cannot get in a residential setting!
-                <a href="finest.php">(Read More...)</a>
+                <a href="readMore.php">(Read More...)</a>
             </p>
         </div>
+    </section>
+    <section class="retroInfo">
         <div class="retro">
             <h2>Turn Back Time</h2>
             <p class="turnBackTime">
@@ -64,7 +68,7 @@
                 to the gaming consoles that got us here. You can play most of the old
                 consoles as we rotate them in and out. Everything from Pong to Atari and
                 space Invaders to Coleco Vision. Come join our New Age Arcade and game with us and even learn a bit of
-                history! <a href="turnBackTime.php">(Read More...)</a>
+                history! <a href="readMore.php">(Read More...)</a>
             </p>
         </div>
     </section>
