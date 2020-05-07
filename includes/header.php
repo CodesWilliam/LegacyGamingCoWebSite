@@ -1,6 +1,7 @@
 <?php include "config.php"?>
 <!DOCTYPE html>
 <html lang="en">
+<?php header("Location: http://www.legacygcc.com"); ?>
 <head>
     <title><?=$title?></title>
     <meta charset="utf-8" />
@@ -17,20 +18,21 @@
 </head>
     <header>
     <div class="crown" height="226" width="644">
-        <a href="index.php" ><img src="../images/smallLogo.png" alt="Legacy Gaming Logo" /></a>
+        <a href="index.php" ><img src="../images/siteImages/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
     <div class="legacy" height="226" width="644">
-        <a href="index.php"><img src="../images/banner.png" alt="Legacy Gaming Banner" /></a>
+        <a href="index.php"><img src="../images/siteImages/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
     </header>
     <nav id="cssmenu">
         <ul>
             <li><a href="index.php">Home</a></li>
-            <li><a href="whatIs">What Is Legacy</a></li>
-            <li><a href="legacyHistory">What Legacy Has To Offer</a></li>
-            <li><a href="gamingAtFinest">Gaming At It's Finest</a></li>
-            <li><a href="retro">Turn Back Time</a></li>
-            <li><a href="contact">Contact</a></li>
+            <li><a href="index.php#legacyGaming">What Is Legacy</a></li>
+            <li><a href="index.php#storeInfo">What Legacy Has To Offer</a></li>
+            <li><a href="index.php#price">Our Prices</a></li>
+            <li><a href="index.php#gamingFinestInfo">Gaming At It's Finest</a></li>
+            <li><a href="index.php#retroInfo">Turn Back Time</a></li>
+            <li><a href="index.php#contact">Contact</a></li>
         </ul>
     </nav>
     <body>

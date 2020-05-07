@@ -1,12 +1,12 @@
 <?php include 'includes/header.php'?>
     <div class="largeImage">
-        <img src="../images/HomeImage.jpg" alt="Home Image">
+        <img src="../images/siteImages/attentionGrabber.jpg" alt="Home Image">
     </div>
-    <section class="legacyGaming">
+    <section id="legacyGaming">
         <h1>What Is Legacy Gaming</h1>
         <div class="whatIs">
                 <div class="legacyLogoImage">
-                    <img src="../images/smallLogo.png" alt="Legacy Logo">
+                    <img src="../images/siteImages/smallLogo.png" alt="Legacy Logo">
                 </div>
                 <p class="legacyOverview">
                     Legacy Gaming is a new age Arcade or what we like to call a Gaming
@@ -16,7 +16,10 @@
                 </p>
         </div>
     </section>
-    <section class="storeInfo">
+    <div class="whatIsImage">
+        <img src="../images/siteImages/whatIs.jpg" alt="What Is Legacy">
+    </div>
+    <section id="storeInfo">
         <div class="storeInfoDiv">
             <h2>What Legacy Gaming Offers</h2>
             <p class="history">
@@ -25,6 +28,15 @@
                 hardwired and using Fiber, we host Gigabit speeds that are faster than
                 residential gamers. <a href="readMore.php">(Read More...)</a>
             </p>
+        </div>
+    </section>
+    <div class="legacyOffers">
+        <img src="../images/siteImages/offersImage.jpg" alt="Legacy Offers">
+    </div>
+    <section id="price">
+        <div class="priceInfo">
+            <h2>Our Pricing</h2>
+            <div class="priceChart">
             <h3>All VR Headsets&#42;</h3>
             <ul>
                 <li>&#36;40.00&#47;hr &#40;1 hour limit at a time&#41;</li>
@@ -45,9 +57,10 @@
                 <li>&#36;10.00&#47;hr &#40;2 hour limit at a time&#41;</li>
                 <li>&#36;5.00&#47;half hour</li>
             </ul>
+            </div>
         </div>
     </section>
-    <section class="gamingFinestInfo">
+    <section id="gamingFinestInfo">
         <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
             <p class="gamingFinestText">
@@ -60,7 +73,10 @@
             </p>
         </div>
     </section>
-    <section class="retroInfo">
+    <div class="finestGaming">
+        <img src="../images/siteImages/finestImage.jpg" alt="Gaming At Its Finest">
+    </div>
+    <section id="retroInfo">
         <div class="retro">
             <h2>Turn Back Time</h2>
             <p class="turnBackTime">
@@ -72,15 +88,16 @@
             </p>
         </div>
     </section>
-    <section class="contact">
+    <div class="turnBackTimeImage">
+        <img src="../images/siteImages/turnBackTime.jpg" alt="Gaming At Its Finest">
+    </div>
+    <section id="contact">
         <!--place contact form here-->
         <h2>Find Us</h2>
         <p class="findUs">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-            fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-            mollit anim id est laborum.
+            Address&#58; 654 Strander Blvd <br/> Tukwila&#44; WA 98188 <br/>
+            Phone&#58; <a href="425-572-0775">425&#45;572&#45;0775</a><br/>
+            Email &#58; <a href="mailto:info@legacygcc.com">info@legacygcc.com</a>
         </p>
         <?php
 
@@ -131,10 +148,15 @@
         }
 
         ?>
-        <div class="googleMap">
-            <!--Google Map Content-->
-        </div>
     </section>
+    <div class="googleMap">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.6728030575914!2d-122.2472268843746!
+            3d47.45731717917506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54905d28186e07d7%3A0x808f7690e464f86
+            !2s654%20Strander%20Blvd%2C%20Seattle%2C%20WA%2098188!5e0!3m2!1sen!2sus!4v1588126459039!5m2!1sen!2sus"
+                width="400" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0">
+        </iframe>
+    </div>
 
         
 

@@ -41,9 +41,12 @@ div.largeImage{
     overflow: auto;
 }
 
-section.legacyGaming  {
-    width: 50%;
-    margin: 1.10em;
+section#legacyGaming  {
+    width: 60%;
+    margin-right: 1.10em;
+    margin-left: 1.10em;
+    margin-bottom: 1.10em;
+    margin-top: .5em;
     float: left;
     clear: right;
 }
@@ -64,12 +67,21 @@ div.legacyLogoImage{
 p.legacyOverview{
     width: 65%;
     float: right;
-    clear: left;
 }
 
-section.storeInfo{
-    width: 50%;
-    margin: 1.10em;
+div.whatIsImage{
+    width: 350px;
+    height: 197px;
+    float: right;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-right: 3em;
+}
+
+section#storeInfo{
+    width: 60%;
+    margin: 2em;
     float: right;
     clear: left;
 }
@@ -79,6 +91,16 @@ div.legacyHistory{
     margin: .25em;
     float: left;
     clear: right;
+}
+
+div.legacyOffers{
+    width: 250px;
+    height: 197px;
+    float: left;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-right: 1em;
 }
 
 h2{
@@ -93,7 +115,30 @@ p.history{
     font-size: 1.25em;
 }
 
-section.gamingFinestInfo{
+section#price{
+    width: 100%;
+    float: left;
+    clear: right;
+}
+
+div.priceInfo{
+    width: 100%;
+}
+
+div.priceChart{
+    width: 100%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.25em;
+    text-align: center;
+}
+
+section#gamingFinestInfo{
     width: 50%;
     margin: 1.10em;
     float: left;
@@ -107,13 +152,22 @@ div.gamingAtFinest {
     clear: right;
 }
 
+div.finestGaming{
+    height: 197px;
+    float: right;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
 p.gamingFinestText{
     width: auto;
     text-align: center;
     font-size: 1.25em;
 }
 
-section.retroInfo{
+section#retroInfo{
     width: 50%;
     margin: 1.10em;
     float: right;
@@ -133,15 +187,39 @@ p.turnBackTime{
     font-size: 1.25em;
 }
 
-section.contact{
+div.turnBackTimeImage{
+    width: 250px;
+    height: 197px;
+    float: left;
+    margin-top: 1em;
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+section#contact{
     width: 50%;
     margin: 1.10em;
     float: left;
     clear: right;
 }
 
-phone {
-    padding: 1em;
+p.findUs{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+address{
+    text-align: center;
+    font-size: 1.25em;
+}
+
+div.googleMap{
+    margin-top: 1.10em;
+    margin-left: 1.10em;
+    margin-right: 5em;
+    margin-bottom: 1.10em;
+    float: right;
 }
 
 footer{
