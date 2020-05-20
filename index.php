@@ -1,6 +1,7 @@
 <?php include 'includes/header.php'?>
     <div class="largeImage">
         <img src="../images/siteImages/attentionGrabber.jpg" alt="Home Image">
+        <!--<img src="../images/siteImages/attentionGrabberTablet.jpg" alt="Home Image">-->
     </div>
     <section id="legacyGaming">
         <h1>What Is Legacy Gaming</h1>
@@ -99,10 +100,10 @@
             Phone&#58; <a href="425-572-0775">425&#45;572&#45;0775</a><br/>
             Email &#58; <a href="mailto:info@legacygcc.com">info@legacygcc.com</a>
         </p>
-        <?php
+        <!--<?php
 
         //Point this to the clients email when done
-        $to = 'will@wfdesings.com';
+        $to = 'wfisher@legacygcc.com';
 
         if (isset($_POST["FirstName"])) {
             //if data show
@@ -147,7 +148,7 @@
             ';
         }
 
-        ?>
+        ?>-->
     </section>
     <div class="googleMap">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.6728030575914!2d-122.2472268843746!

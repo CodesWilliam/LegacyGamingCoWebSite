@@ -36,9 +36,11 @@ div.legacy {
 }
 
 div.largeImage{
-    width: 100%;
     margin: auto;
     overflow: auto;
+    border: black;
+    border-style: solid;
+    border-width: 10px;
 }
 
 section#legacyGaming  {
@@ -67,16 +69,20 @@ div.legacyLogoImage{
 p.legacyOverview{
     width: 65%;
     float: right;
+    font-size: 1.25em;
 }
 
 div.whatIsImage{
     width: 350px;
     height: 197px;
     float: right;
-    margin-top: 1em;
+    margin-top: .5em;
     margin-left: 1em;
     margin-bottom: 1em;
     margin-right: 3em;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
 }
 
 section#storeInfo{
@@ -94,13 +100,15 @@ div.legacyHistory{
 }
 
 div.legacyOffers{
-    width: 250px;
     height: 197px;
     float: left;
     margin-top: 1em;
     margin-left: 3em;
     margin-bottom: 1em;
     margin-right: 1em;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
 }
 
 h2{
@@ -153,12 +161,14 @@ div.gamingAtFinest {
 }
 
 div.finestGaming{
-    height: 197px;
     float: right;
     margin-top: 1em;
     margin-left: 3em;
     margin-bottom: 1em;
     margin-right: 1em;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
 }
 
 p.gamingFinestText{
@@ -188,13 +198,15 @@ p.turnBackTime{
 }
 
 div.turnBackTimeImage{
-    width: 250px;
     height: 197px;
     float: left;
     margin-top: 1em;
     margin-left: 3em;
     margin-bottom: 1em;
     margin-right: 1em;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
 }
 
 section#contact{
@@ -220,7 +232,41 @@ div.googleMap{
     margin-right: 5em;
     margin-bottom: 1.10em;
     float: right;
+    border: black;
+    border-style: solid;
+    border-width: 5px;
 }
+
+h1.whatIsLegacy{
+    font-size: 2em;
+}
+
+div.whatIsMore{
+    font-size: 1.25em;
+}
+
+h2.more{
+    margin: auto;
+    font-size: 1.5em;
+}
+
+div.legacyHistoryMore{
+    font-size: 1.25em;
+}
+
+p{
+    margin: 1.15em;
+}
+
+div.gamingAtFinestRead{
+    font-size: 1.25em;
+}
+
+div.retroRead{
+    font-size: 1.25em;
+}
+
+
 
 footer{
     clear: both;
@@ -245,8 +291,15 @@ footer{
 }
 
 /* TABLET*/
-@media all and (min-width:769px) and (max-width:1279px) {
+@media all and (min-width:769px) and (max-width:1331px) {
 
+    img.banner, img.phone{
+        display: none;
+    }
+
+    img.attentionGrabberTablet{
+
+    }
 
 }
 

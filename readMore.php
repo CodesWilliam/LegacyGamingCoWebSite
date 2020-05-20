@@ -42,7 +42,7 @@
     </div>
 </section>
 <section class="gamingAtFinestMore">
-    <div class="gamingAtFinest">
+    <div class="gamingAtFinestRead">
         <h2 class="more">Gaming at its finest</h2>
         <p>Legacy Gaming is unique in that it is built for every type of gamer, not just our Hardcore Gamers. Our
             variety is able to host Young G-rated Gamers, Family Gamers, and Teen Gamers as well all under one roof.
@@ -55,14 +55,15 @@
     </div>
 </section>
 <section class="retroMore">
-    <div class="retro">
+    <div class="retroRead">
         <h2 class="more">Turn Back Time</h2>
-        <p class="turnBackTime">
-            At Legacy Gaming we not only host what is new and hot but we pay tribute
-            to the gaming consoles that got us here. You can play most of the old
-            consoles as we rotate them in and out. Everything from Pong to Atari and
-            space Invaders to Coleco Vision. Come join our New Age Arcade and game with us and even learn a bit of
-            history! <a href="turnBackTime.php">(Read More...)</a>
+        <p>
+           Even having the latest and greatest of the gaming consoles we also have everything from the old school
+           consoles such as Atari, and Coleco Vision along a timeline that goes all the way up to what we are playing
+           now today. There is history to be learned within the walls of Legacy Gaming and we plan to share this history
+            with everyone. Each week we will host a different 4 old school consoles games for patrons to play until we
+            are able to host them all at once and space allows. The systems can be requested just prior to the weekly
+            change as well. We cannot wait to see what you request.</a>
         </p>
     </div>
 </section>
