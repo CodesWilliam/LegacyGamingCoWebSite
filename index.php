@@ -1,7 +1,7 @@
 <?php include 'includes/header.php'?>
     <div class="largeImage">
-        <img src="../images/siteImages/attentionGrabber.jpg" alt="Home Image">
-        <!--<img src="../images/siteImages/attentionGrabberTablet.jpg" alt="Home Image">-->
+        <img class="desktop" src="../images/siteImages/attentionGrabber.jpg" alt="Home Image">
+        <img class="tablet" src="../images/siteImages/attentionGrabberTablet.jpg" alt="Home Image">
     </div>
     <section id="legacyGaming">
         <h1>What Is Legacy Gaming</h1>
@@ -61,6 +61,9 @@
             </div>
         </div>
     </section>
+    <div class="finestGaming">
+        <img src="../images/siteImages/finestImage.jpg" alt="Gaming At Its Finest">
+    </div>
     <section id="gamingFinestInfo">
         <div class="gamingAtFinest">
             <h2>Gaming at its finest</h2>
@@ -74,8 +77,8 @@
             </p>
         </div>
     </section>
-    <div class="finestGaming">
-        <img src="../images/siteImages/finestImage.jpg" alt="Gaming At Its Finest">
+    <div class="turnBackTimeImage">
+        <img src="../images/siteImages/turnBackTime.jpg" alt="Gaming At Its Finest">
     </div>
     <section id="retroInfo">
         <div class="retro">
@@ -89,9 +92,6 @@
             </p>
         </div>
     </section>
-    <div class="turnBackTimeImage">
-        <img src="../images/siteImages/turnBackTime.jpg" alt="Gaming At Its Finest">
-    </div>
     <section id="contact">
         <!--place contact form here-->
         <h2>Find Us</h2>

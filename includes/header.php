@@ -18,10 +18,10 @@
 </head>
     <header>
     <div class="crown" height="226" width="644">
-        <a href="index.php" ><img src="../images/siteImages/smallLogo.png" alt="Legacy Gaming Logo" /></a>
+        <a href="index.php" ><img class="smallLogo" src="../images/siteImages/smallLogo.png" alt="Legacy Gaming Logo" /></a>
     </div>
     <div class="legacy" height="226" width="644">
-        <a href="index.php"><img src="../images/siteImages/banner.png" alt="Legacy Gaming Banner" /></a>
+        <a href="index.php"><img class="banner" src="../images/siteImages/banner.png" alt="Legacy Gaming Banner" /></a>
     </div>
     </header>
     <nav id="cssmenu">
