@@ -8,7 +8,7 @@ html {
 body{
     background-color: #ffffff;
     width: 80%;
-    margin-left: 8.5em;
+    margin: auto;
 }
 
 div#wrapper {
@@ -416,7 +416,152 @@ footer{
 }
 
 /*PHONE*/
-@media all and (max-width:768px) {
+@media all and (max-width:958px) {
 
+    body{
+        width: 95%;
+    }
+
+    img.banner{
+        display: none;
+    }
+
+    div.crown{
+        float: none;
+        text-align: center;
+        width: 50%;
+        margin: auto;
+    }
+
+    img.smallLogo{
+        float: none;
+        width: 100%;
+    }
+
+    div.largeImage{
+        display: none;
+    }
+
+    img.tablet, img.desktop{
+        display: none;
+    }
+
+    img.phone{
+        float: none;
+        width: 100%;
+    }
+
+    section#legacyGaming{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    div.whatIs{
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+
+    div.legacyLogoImage{
+        float: none;
+        width: 100%;
+    }
+
+    p.legacyOverview{
+        float: none;
+        width: 95%;
+        text-align: center;
+    }
+
+    div.whatIsImage{
+        float: none;
+        width: 350px;
+        height: 197px;
+        text-align: center;
+        margin: auto;
+    }
+
+    section#storeInfo{
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    div.legacyOffers{
+        float: none;
+        width: 350px;
+        height: 197px;
+        margin: auto;
+        text-align: center;
+    }
+
+    section#price{
+        float: none;
+        width: 100%;
+    }
+
+    div.priceInfo{
+        width: 100%;
+        margin-bottom: 1.25em;
+    }
+
+    div.finestGaming{
+        float: none;
+        width: 350px;
+        height: 197px;
+        margin: auto;
+        text-align: center;
+    }
+
+    section#gamingFinestInfo{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    div.gamingAtFinest{
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    div.turnBackTimeImage{
+        float: none;
+        width: 350px;
+        height: 197px;
+        margin: auto;
+        text-align: center;
+    }
+
+    section#retroInfo{
+        float: none;
+        width: 100%;
+        margin: auto;
+    }
+
+    div.retro{
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    section#contact{
+        float: none;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+
+    div.googleMap{
+        float: none;
+        margin: auto auto 1em;
+        text-align: center;
+        width: 400px;
+        height: 250px;
+    }
 
 }
