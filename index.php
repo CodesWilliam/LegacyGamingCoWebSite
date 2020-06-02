@@ -97,7 +97,7 @@
         <h2>Find Us</h2>
         <p class="findUs">
             Address&#58; 654 Strander Blvd <br/> Tukwila&#44; WA 98188 <br/>
-            Phone&#58; <a href="425-572-0775">425&#45;572&#45;0775</a><br/>
+            Phone&#58; <a href="tel: 425-572-0775">425&#45;572&#45;0775</a><br/>
             Email &#58; <a href="mailto:info@legacygcc.com">info@legacygcc.com</a>
         </p>
         <!--<?php
